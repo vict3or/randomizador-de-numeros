@@ -1,0 +1,76 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(13,99,158,1) 48%, rgba(0,212,255,1) 100%)   
+    
+}
+
+.container{
+    padding: 10em 5em 5em; 
+ 	width: 300px;
+ 	margin: auto;
+    flex:1;
+    padding-top: 4rem;
+}
+
+h1,h3,.row{
+    text-align: center;
+    color: #000000;
+    font-family:Verdana;
+}
+
+h1{
+    color: white;
+    padding-bottom: none;
+    align-self:center;
+}
+
+
+.row{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding: 10px;
+}
+
+input{
+padding:20px;
+border: 1px solid black;
+margin-bottom: 10px;
+border-radius: 10px;
+width: 80%;
+text-align: center;
+font-size: 30px;
+
+}
+
+
+.output{
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.btn-randomizer, .btn-limpar{
+border:1px solid black ;
+border-radius:4px;
+display:inline-block;
+cursor:pointer;
+font-family:Verdana;
+font-weight:bold;
+padding:6px 10px;
+text-decoration:none;
+margin-bottom: 10px;
+border-radius: 30px;
+width: 50%;
+color: #000000;
+padding-right: 1.2rem;
+padding-left: 1.2rem;
+text-align: center;
+font-family:Verdana;
+outline: none;
+}
+
+.btn-randomizer:hover, .btn-limpar:hover{ 
+    background-color: rgb(179, 219, 219);
+}
