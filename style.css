@@ -74,3 +74,25 @@ outline: none;
 .btn-randomizer:hover, .btn-limpar:hover{ 
     background-color: rgb(179, 219, 219);
 }
+
+@media (max-width: 1000px){
+    .container{
+     padding:0.5rem;
+     padding-top: 7rem;
+     }
+
+    #output{
+        padding: 0.8em;
+    }  
+
+    input{
+        padding:10px;
+        
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+    
+    h1,h3,.row{
+        font-size: 5px;
+    }
+    }
