@@ -87,12 +87,16 @@ outline: none;
 
     input{
         padding:10px;
-        
         margin-bottom: 5px;
         border-radius: 5px;
     }
     
     h1,h3,.row{
-        font-size: 5px;
+        font-size: 15px;
     }
+    .title{
+        font-size: 25px;
+        padding-top: 4px;
+    }
+    
     }

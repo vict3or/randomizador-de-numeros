@@ -19,4 +19,5 @@ function rand(){
     var max = Number(maxi.value)
     var result = Math.random()* (max - min) + min;
     tela(Math.round(result))
+    
 }
